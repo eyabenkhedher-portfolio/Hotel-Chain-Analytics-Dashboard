@@ -1,2 +1,3 @@
-# Brazilian-Hotel-Data-Profiling-Analytics
-SQL-based data cleaning and profiling on a 9-table relational database for Brazilian hotel analytics.
+# hotel-booking-analysis
+- **Hotel Booking Data Profiling & Analytics:** Cleaning complex relational databases and analyzing occupancy rates, revenues, and ratings using SQL Server.
+
