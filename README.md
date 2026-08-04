@@ -16,4 +16,4 @@ It explores occupancy rates, revenue metrics, cancellation rates, and customer r
 - How to aggregate and calculate core hospitality KPIs like occupancy rate and revenue generated vs. realized[cite: 2]
 
 ## 🔗 Repository
-[Hotel Booking SQL Analytics](https://github.com/eyabenkhedher-portfolio/hotel-booking-sql-analytics)
+https://github.com/eyabenkhedher-portfolio/Brazilian-Hotel-Data-Profiling-Analytics/commit/91fe46ed8d742528a8f30f5e25e5247e3114b766
