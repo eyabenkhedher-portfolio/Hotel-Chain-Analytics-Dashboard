@@ -1,19 +1,26 @@
+# 🏨 Hotel Chain Analytics Dashboard
 
-# 🏨 Hotel Booking Data Profiling & Analytics
+## 📌 Project Overview
+This project presents an end-to-end data analysis solution for a hotel chain, covering data cleaning, SQL exploration, and an interactive Power BI dashboard to track key operational and revenue metrics.
 
-## 🛠️ Tools Used
-- Microsoft SQL Server
-- SQL / T-SQL
+## 📊 Dashboard Preview
+![Hotel Chain Analytics Dashboard](images/dashboard.png)
 
-## 📈 Project Overview
-This project focuses on cleaning, profiling, and analyzing a multi-table relational database for hotel bookings.
-It explores occupancy rates, revenue metrics, cancellation rates, and customer ratings to deliver actionable business insights.
+## 🛠️ Tech Stack & Tools Used
+- **Database / SQL**: SQL Server (Data Cleaning, Null Handling, Aggregations, Window Functions)
+- **Visualization**: Power BI (KPI Cards, Custom Visuals, Slicers, Interactive Filtering)
 
-## 💡 What I Learned
-- How to clean missing values and handle nulls across relational datasets[cite: 2]
-- How to handle date type conversions and validate data integrity using `ISDATE` and `CONVERT`[cite: 2]
-- How to eliminate duplicates efficiently using Common Table Expressions (CTEs) and `ROW_NUMBER()`[cite: 2]
-- How to aggregate and calculate core hospitality KPIs like occupancy rate and revenue generated vs. realized[cite: 2]
+## 🔍 Key Insights & Metrics
+- **Total Revenue**: Highlighting top revenue-contributing cities (e.g., Mumbai representing ~39% of total revenue).
+- **Cancellation Rate**: Tracked across various booking platforms to identify retention bottlenecks (~24.8%).
+- **Average Bookings by Room Class**: Evaluation of room demand across Elite, Standard, Premium, and Presidential classes.
+
+## 🧹 SQL Exploration Highlights
+Key operations performed in SQL:
+- Handled missing values and zero/invalid entries across dates and room categories.
+- Deduplicated records using `ROW_NUMBER() OVER(PARTITION BY ...)`.
+- Calculated city-level revenue contributions and platform cancellation rates.
 
 ## 🔗 Repository
 https://github.com/eyabenkhedher-portfolio/Brazilian-Hotel-Data-Profiling-Analytics/commit/91fe46ed8d742528a8f30f5e25e5247e3114b766
+  
